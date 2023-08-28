@@ -1,0 +1,106 @@
+# Git Commands
+
+1.- To update git use the following command
+
+git update-git-for-windows (Windows)
+brew upgrade git (Mac)
+
+2.- To set git configurations use the following command
+
+git config --global user.name "User Name"
+git config --global user.email "Email"
+git config --global init.defaultBranch "Name of the branch" 
+
+3.- To start git repository use the following command
+
+git init
+
+3.- To rename a branch use the following command
+
+git branch -m "New Name of the branch"
+
+-To add files to the commit use the following command
+
+git add op
+
+op: 
+. Use this option for select all files
+File name  use this option for select to one file
+
+-To make a commit use the following command
+
+git commit -m "Message or Comment"
+
+-To see the git log use the following command
+
+git log
+
+-To restore working tree files use the following command
+
+git checkout "File Name"
+
+-To reset current HEAD to the specified state use the following command
+
+git reset
+
+-To create a file gitignore use the following command
+
+touch .gitignore
+
+-To view changes that have been made to files
+
+git diff
+
+-To add a tag use the following command
+
+git tag Tag Name
+
+-To create a branch use the following command
+
+git branch Branch Name
+
+-To delete a branch use the following command
+
+git branch -d Branch Name
+
+-To change branch use the following command
+
+git switch Branch Name
+
+-To join the branch use the following command
+
+git merge main
+
+-To store temporally and without commit use the following command
+
+git stash
+
+-To retrieve the temporally stored use the following command
+
+git stash pop
+
+-To delete stash use the following command
+
+git stash drop
+
+-To add a GitHub repository use the following command
+
+git remote add origin GitHub Repository
+
+-To add a project in GitHub use the following command
+
+git push -u origin main
+
+Optional
+
+-To see a git status use the following command
+
+git status
+
+-To create alias for thr coomands use the following command
+
+git config --global alias."Command"
+
+-To execute the alias use the following command
+
+git Alias Name
