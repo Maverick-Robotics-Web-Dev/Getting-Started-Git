@@ -99,6 +99,10 @@ git fetch
 
 git pull 
 
+-To copy the GitHub repository use the following command
+
+git clone URL of the Repository
+
 Optional
 
 -To see a git status use the following command
