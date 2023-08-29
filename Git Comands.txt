@@ -91,6 +91,14 @@ git remote add origin GitHub Repository
 
 git push -u origin main
 
+-To download only the change history from Github use the following command
+
+git fetch
+
+-To pull changes from GitHub use the following command
+
+git pull 
+
 Optional
 
 -To see a git status use the following command
